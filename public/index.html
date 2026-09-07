@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+  <title>OnlyPrivacy</title>
+
+  <!-- PWA / Add to Home Screen -->
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#F97316" />
+
+  <!-- iOS specific: full-screen, no browser chrome, custom icon -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="OnlyPrivacy" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+  <link rel="icon" href="icon-192.png" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <style>
+    html, body { margin: 0; padding: 0; overscroll-behavior: none; }
+    #root { min-height: 100vh; min-height: 100dvh; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="bundle.js"></script>
+</body>
+</html>
